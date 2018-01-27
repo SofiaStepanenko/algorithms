@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="901e397b-c5e7-4842-8a44-02e8ad1010c4" name="Default" comment="" />
+    <list default="true" id="901e397b-c5e7-4842-8a44-02e8ad1010c4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/main/EmasComputerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,14 +62,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KangarooTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="KangarooTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/main/KangarooTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
+            <state relative-caret-position="165">
               <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmasComputerTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/main/EmasComputerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-509">
+              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#781#790#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="2239" column="61" lean-forward="false" selection-start-line="2239" selection-start-column="61" selection-end-line="2239" selection-end-column="61" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -98,6 +124,7 @@
         <option value="$PROJECT_DIR$/src/test/java/main/RecordsTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/main/ChocolateTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/main/ProfessorTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/main/EmasComputerTest.java" />
       </list>
     </option>
   </component>
@@ -239,7 +266,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ProfessorTest">
+  <component name="RunManager" selected="TestNG.EmasComputerTest">
     <configuration name="ChocolateTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -272,7 +299,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="KangarooTest.kangarooTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="EmasComputerTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="main.*" />
@@ -284,8 +311,40 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="main" />
-      <option name="MAIN_CLASS_NAME" value="main.KangarooTest" />
-      <option name="METHOD_NAME" value="kangarooTest" />
+      <option name="MAIN_CLASS_NAME" value="main.EmasComputerTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="EmasComputerTest.test" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="algorithms" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="main" />
+      <option name="MAIN_CLASS_NAME" value="main.EmasComputerTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -317,38 +376,6 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="main" />
       <option name="MAIN_CLASS_NAME" value="main.ProfessorTest" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="RecordsTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="algorithms" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="main" />
-      <option name="MAIN_CLASS_NAME" value="main.RecordsTest" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -481,19 +508,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.KangarooTest.kangarooTest" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.RecordsTest" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.ChocolateTest" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.main" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.ProfessorTest" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.ChocolateTest" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.main" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.ProfessorTest" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.EmasComputerTest.test" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.EmasComputerTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.ProfessorTest" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.main" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.ChocolateTest" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.RecordsTest" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.KangarooTest.kangarooTest" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.EmasComputerTest" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.EmasComputerTest.test" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.ProfessorTest" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.main" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.ChocolateTest" />
       </list>
     </recent_temporary>
   </component>
@@ -512,61 +539,62 @@
       <workItem from="1516017820147" duration="2206000" />
       <workItem from="1516189391656" duration="9000" />
       <workItem from="1516802248810" duration="643000" />
-      <workItem from="1516881529425" duration="520000" />
+      <workItem from="1516881529425" duration="12923000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ProfessorTest - 2018.01.15 at 14h 36m 10s.xml">
-      <configuration name="ProfessorTest" configurationId="TestNG" />
+    <history-entry file="EmasComputerTest - 2018.01.28 at 00h 42m 58s.xml">
+      <configuration name="EmasComputerTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ProfessorTest - 2018.01.15 at 14h 36m 31s.xml">
-      <configuration name="ProfessorTest" configurationId="TestNG" />
+    <history-entry file="EmasComputerTest - 2018.01.28 at 00h 44m 27s.xml">
+      <configuration name="EmasComputerTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ProfessorTest - 2018.01.15 at 14h 40m 23s.xml">
-      <configuration name="ProfessorTest" configurationId="TestNG" />
+    <history-entry file="EmasComputerTest - 2018.01.28 at 00h 45m 12s.xml">
+      <configuration name="EmasComputerTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ProfessorTest - 2018.01.15 at 14h 41m 12s.xml">
-      <configuration name="ProfessorTest" configurationId="TestNG" />
+    <history-entry file="EmasComputerTest - 2018.01.28 at 00h 45m 42s.xml">
+      <configuration name="EmasComputerTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ProfessorTest - 2018.01.15 at 14h 41m 23s.xml">
-      <configuration name="ProfessorTest" configurationId="TestNG" />
+    <history-entry file="EmasComputerTest - 2018.01.28 at 01h 09m 04s.xml">
+      <configuration name="EmasComputerTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ProfessorTest - 2018.01.15 at 14h 41m 57s.xml">
-      <configuration name="ProfessorTest" configurationId="TestNG" />
+    <history-entry file="EmasComputerTest_test - 2018.01.27 at 23h 37m 55s.xml">
+      <configuration name="EmasComputerTest.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RecordsTest - 2018.01.10 at 18h 24m 49s.xml">
-      <configuration name="RecordsTest" configurationId="TestNG" />
+    <history-entry file="EmasComputerTest_test - 2018.01.27 at 23h 57m 01s.xml">
+      <configuration name="EmasComputerTest.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RecordsTest - 2018.01.10 at 18h 25m 27s.xml">
-      <configuration name="RecordsTest" configurationId="TestNG" />
+    <history-entry file="EmasComputerTest_test - 2018.01.27 at 23h 59m 52s.xml">
+      <configuration name="EmasComputerTest.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RecordsTest - 2018.01.10 at 18h 27m 22s.xml">
-      <configuration name="RecordsTest" configurationId="TestNG" />
+    <history-entry file="EmasComputerTest_test - 2018.01.28 at 00h 03m 01s.xml">
+      <configuration name="EmasComputerTest.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="main - 2018.01.10 at 18h 59m 47s.xml">
-      <configuration name="main" configurationId="TestNG" />
+    <history-entry file="EmasComputerTest_test - 2018.01.28 at 00h 42m 38s.xml">
+      <configuration name="EmasComputerTest.test" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17630000" />
+    <option name="totallyTimeSpent" value="30033000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3483548" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26865673" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14878398" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26865673" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -578,13 +606,38 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -819,10 +872,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/main/KangarooTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
+        <state relative-caret-position="165">
           <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="2239" column="61" lean-forward="false" selection-start-line="2239" selection-start-column="61" selection-end-line="2239" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/main/EmasComputerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-509">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#781#790#0" expanded="true" />
           </folding>
         </state>
       </provider>
