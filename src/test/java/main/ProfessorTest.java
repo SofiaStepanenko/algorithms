@@ -4,6 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 /**
+ * https://docs.google.com/document/d/1cLQgFHuceNrjYODGKMRZ0gvwILPiwkqQSkxfrHKExPc/edit
  * @author sofiiastepanenko  15/01/18.
  */
 public class ProfessorTest {

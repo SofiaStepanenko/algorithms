@@ -5,6 +5,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 /**
+ * https://docs.google.com/document/d/1b5Ilf1iJAz1Lk4vhKDF2yU9i43HIeAWtzLiXzkpWNOE/edit#
  * @author sofiiastepanenko  5/01/18.
  */
 public class KangarooTest {

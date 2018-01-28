@@ -4,6 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 /**
+ * https://docs.google.com/document/d/1VpveKzsO8VyuyYpwlgiJyNX-xjukmTVYgkKmRA-qCaQ/edit
  * @author sofiiastepanenko  5/01/18.
  */
 public class ChocolateTest {
@@ -31,7 +32,7 @@ public class ChocolateTest {
         Assert.assertEquals(solve(numbers, day, months), 1);
     }
 
-    public int solve(int[] s, int d, int m) {
+    private int solve(int[] s, int d, int m) {
 
         Assert.assertTrue(1 <= d);
         Assert.assertTrue(d <= 31);

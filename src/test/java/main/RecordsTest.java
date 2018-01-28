@@ -4,6 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 /**
+ * https://docs.google.com/document/d/1w0wlvZ-O4FURbPgtPLn-D1_n0Oc47ssZ2xxri11QNHc/edit
  * @author sofiiastepanenko  5/01/18.
  */
 public class RecordsTest {

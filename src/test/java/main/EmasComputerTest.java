@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 import java.util.ArrayList;
 
 /**
+ * https://docs.google.com/document/d/1IK4k7XSEaLt45p7otAw-Vcr6h6BbMm4FnhfWGEfyyfk/edit
  * @author sofiiastepanenko  27/01/18.
  */
 public class EmasComputerTest {
